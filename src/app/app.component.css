@@ -1,0 +1,20 @@
+/* Set the initial background properties */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrollbars from appearing */
+    background-image: url('../assets/Innovation.jpg') repeat;
+    background-size: cover;
+    animation: moveBackground 30s linear infinite;
+  }
+  
+  /* Define the animation for moving the background */
+  @keyframes moveBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -10000px 0;
+    }
+  }
+  

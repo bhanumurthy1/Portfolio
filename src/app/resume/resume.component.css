@@ -1,0 +1,15 @@
+/* resume.component.css */
+
+.resume-section {
+    padding: 20px 0;
+     /* Light background for the resume section */
+  }
+  
+  .resume-content {
+    text-align: center;
+  }
+  
+  .resume-pdf {
+    margin-top: 20px;
+  }
+  

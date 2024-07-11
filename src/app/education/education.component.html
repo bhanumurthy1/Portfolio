@@ -1,0 +1,15 @@
+<div class="education-container">
+    <h1>Education</h1>
+    <table class="education-table">
+      <tr *ngFor="let edu of education">
+        <td class="logo-cell">
+          <img [src]="edu.logo" alt="{{edu.university}} logo" class="university-logo">
+        </td>
+        <td class="text-cell">
+          <div class="degree">{{ edu.degree }}</div>
+          <div class="university">{{ edu.university }}</div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  

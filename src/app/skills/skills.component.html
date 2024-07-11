@@ -1,0 +1,27 @@
+<div class="experience-title">
+  <h2>Skills</h2>
+</div>
+
+<div class="container">
+    <table class="table table-bordered">
+      <tbody>
+        <!-- Loop through each unique category -->
+        <tr *ngFor="let category of getCategories()">
+          <!-- Category header -->
+          <th>{{ category }}</th>
+          <!-- Loop through skills in the current category -->
+          <td *ngFor="let skill of getSkillsByCategory(category)">
+            <div class="skill-card">
+              <img src="assets/icons/{{ skill.icon }}" alt="{{ skill.name }}" class="skill-icon">
+              <div class="progress">
+                <div class="progress-bar" [style.width.%]="skill.percent" [class]="skill.color"
+                     aria-valuemax="100" aria-valuemin="0" [attr.aria-valuenow]="skill.percent" role="progressbar">
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

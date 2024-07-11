@@ -1,0 +1,99 @@
+.experience-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .experience-title {
+    text-align: center;
+    margin-top: 40px; /* Adjust margin as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .flip-card-front {
+    background-color: #4341415f;
+  }
+  
+  .flip-card-back {
+    background-color: #070707;
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .flip-card p {
+    margin: 5px 0;
+  }
+  
+  /* Additional styles to position the cards as per the requirement */
+  .position-4 {
+    grid-column: 3 / 3;
+  }
+  
+  .position-5 {
+    grid-column: 1 / 4;
+  }
+  
+  @media (max-width: 900px) {
+    .experience-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .position-4, .position-5 {
+      grid-column: auto;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .experience-container {
+      grid-template-columns: 1fr;
+    }
+    .position-4, .position-5 {
+      grid-column: auto;
+    }
+  }
+  

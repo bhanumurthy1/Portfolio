@@ -1,0 +1,37 @@
+.education-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .education-table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+    max-width: 800px;
+  }
+  
+  .logo-cell {
+    width: 100px;
+    vertical-align: middle;
+  }
+  
+  .text-cell {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .university-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .degree {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .university {
+    font-size: 1em;
+    color: #555;
+  }
+  

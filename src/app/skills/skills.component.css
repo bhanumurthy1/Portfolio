@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.table {
+    width: 70%;
+    margin-top: 80px;
+    border-collapse: collapse;
+    color: #f0f0f0; /* Light text color for better contrast on black background */
+    
+  }
+  
+  .table th, .table td {
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #333; /* Border color for table cells */
+  }
+  
+  .table th {
+    /* Dark background for category headers */
+    color: #f2f5f7; /* Light text color */
+    width: 20%;
+  }
+  
+  .skill-card {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  .experience-title {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  
+  .progress {
+    height: 4px;
+    background-color: #444; /* Dark gray background for the progress bar container */
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+  }
+  
+  .blue {
+    background-color: #007bff; /* Blue accent color */
+  }
+  
+  .green {
+    background-color: #28a745; /* Green accent color */
+  }
+  
+  .orange {
+    background-color: #fd7e14; /* Orange accent color */
+  }
+  
+  .red {
+    background-color: #dc3545; /* Red accent color */
+  }
+  
+  .purple {
+    background-color: #6f42c1; /* Purple accent color */
+  }
+  
+  .teal {
+    background-color: #20c997; /* Teal accent color */
+  }
+  
+  /* Adding some hover effects for better user experience */
+  .skill-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+  }
+  
+  .progress-bar.blue:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .progress-bar.green:hover {
+    background-color: #19692c; /* Darker green on hover */
+  }
+  
+  .progress-bar.orange:hover {
+    background-color: #c45300; /* Darker orange on hover */
+  }
+  
+  .progress-bar.red:hover {
+    background-color: #b21f2d; /* Darker red on hover */
+  }
+  
+  .progress-bar.purple:hover {
+    background-color: #5931a5; /* Darker purple on hover */
+  }
+  
+  .progress-bar.teal:hover {
+    background-color: #1a8579; /* Darker teal on hover */
+  }
+  

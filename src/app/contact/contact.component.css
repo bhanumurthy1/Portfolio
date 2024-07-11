@@ -1,0 +1,89 @@
+/* contact.component.css */
+
+.section-padding {
+    padding: 60px 0;
+  }
+  
+  .bg-color {
+     /* Black background */
+    color: #fff; /* White text */
+  }
+  
+  .contact-section {
+    
+    color: #fff;
+  }
+  
+  .section-title h1 {
+    color: #fff; /* White text for the title */
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .text-info h4 {
+    color: #ccc; /* Light gray text */
+    margin-bottom: 20px;
+  }
+  
+  .text-info p {
+    font-size: 1.2em;
+  }
+  
+  .address {
+    margin-top: 40px;
+  }
+  
+  .icon-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .icon-item {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .icon-item i {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .icon-item p {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .icon-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .icon-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .icon-item .fa-map-signs {
+    color: #3498db; /* Example color for address icon */
+  }
+  
+  .icon-item .fa-phone {
+    color: #2ecc71; /* Example color for phone icon */
+  }
+  
+  .icon-item .fa-envelope {
+    color: #e74c3c; /* Example color for email icon */
+  }
+  
+  .icon-item .fa-linkedin {
+    color: #0077b5; /* LinkedIn color */
+  }
+  
+  @media (max-width: 767px) {
+    .icon-item {
+      flex-basis: 100%;
+      margin: 10px 0;
+    }
+  }
+  

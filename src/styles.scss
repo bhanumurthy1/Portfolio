@@ -1,0 +1,58 @@
+
+
+
+$primary-color: #101010; /* black */
+$secondary-color: #504d4d; /* gray */
+$accent-color: #fff; /* white */
+
+// Apply theme to body
+body {
+  background-color: $primary-color;
+  color: $accent-color;
+  font-family: Arial, sans-serif;
+
+  background-image: url('/assets/bg.jpg'); /* Update with your actual image path */
+  background-size: cover;
+  background-attachment: fixed; /* Parallax effect */
+}
+
+// Navbar styling
+.navbar {
+  background-color: rgb(7, 7, 7);
+  padding: 10px 20px;
+  //align-items: right;
+  display: flex;
+  justify-content: right;
+}
+
+.navbar a {
+  color: $accent-color;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.menu-icon img {
+  cursor: pointer; 
+  margin-left: auto;
+}
+
+.navbar a:hover {
+  background-color: darken($secondary-color, 10%);
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.nav-links a:hover {
+  transform: scale(1.05);
+  color: $accent-color;
+}

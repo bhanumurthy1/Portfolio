@@ -1,0 +1,78 @@
+.portfolio-content {
+    padding: 20px;
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .thumbnail {
+    padding: 15px;
+   
+    border: 1px solid #0a0909;
+    margin: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .thumbnail img {
+    width: 70%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .thumbnail img:hover {
+    transform: scale(1.1);
+  }
+  
+  .thumbnail h4 {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  .thumbnail h4 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .thumbnail h4 a:hover {
+    text-decoration: underline;
+  }
+  
+  .thumbnail small a {
+    color: #0f0e0e;
+    text-decoration: none;
+  }
+  
+  .thumbnail small a:hover {
+    text-decoration: underline;
+  }
+  
+  .fab {
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin-bottom: 10px;
+  }
+
+  .experience-title {
+    text-align: center;
+    margin-top: 40px; /* Adjust margin as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  } 
+  
